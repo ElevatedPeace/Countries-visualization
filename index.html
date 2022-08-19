@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+
+    <title>World Visualization</title>
+    
+</head>
+<body>
+    
+    
+    <p id="first_p"> World Countries Lists </p>
+    <p id="second_p"> Total Number Of Countries : 193 </p>
+    <p id="third_p"> <span id="red">  </span>  <span id="green"> </span></p>
+
+    <div id="buttons">
+        <button id="starting_word" onclick="find();"> Starting Word</button>
+        <button id="involved_word" onclick="search();"> Search With Any Word </button>
+           <button type="button" id="arrow" onclick="sort();"> <i class="fas fa-upload"></i> </button>
+    </div>
+<div class="searchArea">
+    <input type="text" placeholder="Search Countries" id="input" onkeyup=" find(); search(); start();">
+    <button type="submit" class="searchBtn"> <i class="fa fa-search"></i></button>
+</div>
+
+ <ul id="grid">
+            <li class="card"><a class="lists" href="#"> Angola</a></li>
+            <li class="card"><a class="lists" href="#"> Britain</a></li>
+            <li class="card"><a class="lists" href="#"> Brazil</a></li>
+            <li class="card"><a class="lists" href="#"> Canada</a></li>
+            <li class="card"><a class="lists" href="#"> Cameroon</a></li>
+            <li class="card"><a class="lists" href="#"> Indonesia</a></li>
+            <li class="card"><a class="lists" href="#"> Mexico</a></li>
+            <li class="card"><a class="lists" href="#"> London</a></li>
+            <li class="card"><a class="lists" href="#"> France</a></li>
+            <li class="card"><a class="lists" href="#"> Nigeria</a></li>
+            <li class="card"><a class="lists" href="#"> Angola</a></li>
+            <li class="card"><a class="lists" href="#"> Congo</a></li>
+            <li class="card"><a class="lists" href="#"> Germany</a></li>
+            <li class="card"><a class="lists" href="#"> Paris</a></li>
+            <li class="card"><a class="lists" href="#"> Togo</a></li>
+            <li class="card"><a class="lists" href="#"> Russia</a></li>
+            <li class="card"><a class="lists" href="#"> Turkey</a></li>
+            <li class="card"><a class="lists" href="#"> Switzerland</a></li>
+            <li class="card"><a class="lists" href="#"> Philipines</a></li>
+        </ul>
+    
+</body>
+</html>
